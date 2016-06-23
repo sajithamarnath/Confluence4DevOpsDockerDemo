@@ -5,7 +5,7 @@ var request = require("supertest"),		// to help with http assertions, assertion 
     app = require("../app").getApp;		// trying to get the 'app' being exported in app.js
 
 
-//we are moving to root, and expecting a 200 OK response
+//we are moving to root, and expecting a 200 OK response test
 describe('GET /', function(){
   it('expects HTTP response 200', function(done){
     request(app)
