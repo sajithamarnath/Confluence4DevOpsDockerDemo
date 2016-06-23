@@ -1,0 +1,15 @@
+{
+	"name": "Confluence4DevOpsDockerDemo",
+	"private": true,
+	"version": "0.0.1",
+	"description": "Confluence 4 DveOps Docker Demo. App for CI Contineous Integration",
+	"main": "app.js",
+	"author": "Sajith N K <sajith.n.k@ericsson.com>",
+	"license": "All Open Source",
+	"dependencies": {
+		"express": "3.2.4",
+		"jade": "1.11.0",
+		"mocha": "1.20.1",
+		"supertest": "1.1.0"
+	}
+}
